@@ -4,9 +4,7 @@
     <head>
       <title> Cooking is Fun! </title>
       <link rel="stylesheet" href="css/bootstrap.min.css">
-      <script src="js/jquery.slim.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="css/home.css">
     </head>
 
     <body>
@@ -36,7 +34,7 @@
           </span>
         </nav> <!-- End of navbar -->
 
-        <div class="container">
+        <div class="container" id="question-form">
           <div class="row mt-3">
             <div class="form-group ">
               <label for="question">What's a good substitute for: </label>
@@ -49,9 +47,13 @@
               <textarea class="form-control" rows="5" id="description"></textarea>
             </div>
           </div>
-          <a class="btn btn-primary btn-lg mt-3" href="#" role="button">Post!</a>
-        </div>
-      </div> <!--End of allcontent div>
+        <!--  <a class="btn btn-primary btn-lg mt-3" id="postButton" role="button">Post!</a>
+          <div id="snackbar"> Question Posted! </div> -->
+      </div> <!--End of allcontent div-->
     </body>
-
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- <script src="js/project.js"></script> -->
   </html>
